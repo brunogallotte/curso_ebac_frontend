@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+    background-color: #4c4141;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.box-form {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 512px;
+    height: 560px;
+    background-color: #ffd3cd3d;
+    border-radius: 8px;
+}
+
+form header {
+    background-color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+form h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    outline-style: none;
+    border-width: 0px;
+    background-color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+button {
+    color: #fff;
+    padding: 12px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: #ef534f;
+    outline-style: none;
+    border-width: 0px;
+    width: 100%;
+    box-shadow: 1px 1px 3px #333, -1px -1px 3px #33333309;
+    cursor: pointer;
+}
+
+#enviar {
+    background-color: #028b02;
+}
+
+label {
+    background-color: #be403b;
+    margin-bottom: 4px;
+    padding: 1px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="box-form">
+            <form>
+                <header>
+                    <h1>Formulário</h1>
+                </header>
+                <input type="text" placeholder="Nome completo" id="nome" name="nome">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="tel" placeholder="Celular" name="cel" id="cel">
+                <input type="text" placeholder="CPF" id="cpf" name="cpf">
+                <input type="text" placeholder="Endereço completo" name="endereco">
+                <input type="text" placeholder="CEP" id="cep" name="cep">
+                <div class="buttons">
+                    <button id="enviar" type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
